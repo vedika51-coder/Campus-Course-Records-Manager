@@ -1,0 +1,9 @@
+package edu.ccrm.service;
+
+import java.util.Scanner;
+
+public class StudentService {
+    public void menu(Scanner sc) {
+        System.out.println("Student management menu (stub).");
+    }
+}
