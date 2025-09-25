@@ -1,0 +1,9 @@
+package edu.ccrm.service;
+
+import java.util.Scanner;
+
+public class EnrollmentService {
+    public void menu(Scanner sc) {
+        System.out.println("Enrollment & grades menu (stub).");
+    }
+}
