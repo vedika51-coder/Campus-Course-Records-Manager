@@ -1,0 +1,26 @@
+# Campus Course & Records Manager (CCRM)
+
+Starter scaffold for the Java SE console project.
+
+## How to Run
+Compile from project root:
+```bash
+javac -d out $(find src -name "*.java")
+java -cp out edu.ccrm.cli.MainMenu
+```
+
+## Evolution of Java
+- 1995: Java 1.0 ...
+- 2025: Java 22 ...
+
+## Java Editions
+| Edition | Use |
+|--------|-----|
+| Java SE | Standard Edition |
+| Java EE | Enterprise Edition |
+| Java ME | Micro Edition |
+
+## JDK / JRE / JVM
+- JDK: Development Kit
+- JRE: Runtime Environment
+- JVM: Virtual Machine
