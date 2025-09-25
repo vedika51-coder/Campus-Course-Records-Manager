@@ -1,0 +1,14 @@
+package edu.ccrm.config;
+
+public class AppConfig {
+    private static final AppConfig INSTANCE = new AppConfig();
+    private String dataDir = "data";
+
+    private AppConfig() {}
+    public static AppConfig getInstance() { return INSTANCE; }
+
+    public void load() {
+        System.out.println("Config loaded. Data dir: " + dataDir);
+    }
+    public String getDataDir() { return dataDir; }
+}
